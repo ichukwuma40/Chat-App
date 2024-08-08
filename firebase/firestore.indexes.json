@@ -1,0 +1,46 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "chatsList",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "users",
+          "arrayConfig": "CONTAINS"
+        },
+        {
+          "fieldPath": "lastMessageSentTime",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "list_messagesChat",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "chatList",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "timeCreated",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "activity",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "notifyUsers",
+          "arrayConfig": "CONTAINS"
+        },
+        {
+          "fieldPath": "timePosted",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ]
+}

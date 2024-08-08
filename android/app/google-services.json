@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "202270238636",
+    "project_id": "team-chat-app-15fyts",
+    "storage_bucket": "team-chat-app-15fyts.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:202270238636:android:edec1321a0f9495636fc09",
+        "android_client_info": {
+          "package_name": "com.flutterflow.teamchatapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7xZ4sMlI6pXlidKOVI9jrcSBxYk8WFP8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
